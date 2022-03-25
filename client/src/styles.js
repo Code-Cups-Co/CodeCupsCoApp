@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles(() => ({
   appBar: {
     padding: 1,
-    borderRadius: 15,
+    borderRadius: 12,
     margin: "26px",
     justifyContent: "center",
     alignItems: "center",
@@ -13,5 +13,6 @@ export default makeStyles(() => ({
     fontFamily: "Bangers",
     color: "#4D96FF",
     fontSize: "40px",
+    letterSpacing: 0.5,
   },
 }));
